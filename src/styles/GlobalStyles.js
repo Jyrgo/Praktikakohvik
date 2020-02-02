@@ -98,6 +98,7 @@ const GlobalStyles = createGlobalStyle`
 
   button {
     border: none;
+    border-radius: 50%;
     background: none;
     outline: none;
     padding: 0;

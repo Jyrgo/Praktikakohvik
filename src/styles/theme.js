@@ -2,14 +2,14 @@
 
 const theme = {
   font: {
-    primary: `'HK Grotesk Normal'`,
-    secondary: `'HK Grotesk Medium'`,
-    light: `'HK Grotesk Light'`,
-    normal: `'HK Grotesk Normal'`,
-    medium: `'HK Grotesk Medium'`,
-    semibold: `'HK Grotesk Semibold'`,
-    bold: `'HK Grotesk Bold'`,
-    extrabold: `'HK Grotesk Extra Bold'`,
+    primary: `'Nunito Sans'`,
+    secondary: `'Nunito Sans'`,
+    light: `'Nunito Sans'`,
+    normal: `'Nunito Sans'`,
+    medium: `'Nunito Sans'`,
+    semibold: `'Nunito Sans'`,
+    bold: `'Nunito Sans'`,
+    extrabold: `'Nunito Sans'`,
   },
   font_size: {
     xxxsmall: "font-size: 12px;",
@@ -23,8 +23,9 @@ const theme = {
   },
 
   color: {
-    primary: "#071435",
-    secondary: "#098c8c",
+    primary: "#1D1D90",
+    secondary: "#1E2F4F",
+    tertiary: "#1B2C4A",
     accent: "#cca86e",
     background: {
       white: "#ffffff",

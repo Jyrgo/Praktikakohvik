@@ -6,6 +6,7 @@ import { Container } from "../global"
 const Footer = () => (
   <FooterWrapper id="footer">
     <FooterColumnContainer>
+
       <FooterColumn>
         <span>Features</span>
         <ul>
@@ -13,20 +14,7 @@ const Footer = () => (
           <li>Rewards</li>
         </ul>
       </FooterColumn>
-      <FooterColumn>
-        <span>Resources</span>
-        <ul>
-          <li>Compare</li>
-          <li>Blog</li>
-        </ul>
-      </FooterColumn>
-      <FooterColumn>
-        <span>Company</span>
-        <ul>
-          <li>About Us</li>
-          <li>Careers</li>
-        </ul>
-      </FooterColumn>
+
       <FooterColumn>
         <span>Social</span>
         <ul>
@@ -34,10 +22,8 @@ const Footer = () => (
           <li>Instagram</li>
         </ul>
       </FooterColumn>
+
     </FooterColumnContainer>
-    <BrandContainer>
-      <Logo>Finance</Logo>
-    </BrandContainer>
   </FooterWrapper>
 )
 
@@ -45,6 +31,7 @@ const FooterWrapper = styled.footer`
   background-color: white;
   margin: 80px 0 0;
   padding: 0 0 80px;
+  display: flex;
 `
 
 const Logo = styled.div`
@@ -63,15 +50,7 @@ const Logo = styled.div`
   outline: 0px;
 `
 
-const BrandContainer = styled(Container)`
-  position: relative;
-  padding-top: 48px;
-  display: flex;
-  align-items: flex-end;
 
-  @media (max-width: ${props => props.theme.screen.sm}) {
-  }
-`
 const FooterColumnContainer = styled(Container)`
   display: grid;
   grid-template-columns: repeat(4, 1fr);
