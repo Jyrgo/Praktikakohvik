@@ -27,14 +27,17 @@ const Header = () => {
       <Container>
         <Flex>
           <HeaderTextGroup>
+            <h4>
+              21.02
+            </h4>
+            <h5>
+              Mektory, Raja 15a
+            </h5>
             <h1>
               LEIA ENDALE
               <br />
               PRAKTIKAKOHT
             </h1>
-            <h2>
-              TalTech praktikakohvik 2020 Mektory-s.
-            </h2>
             <HeaderButton>Registreeri</HeaderButton>
           </HeaderTextGroup>
           <ImageWrapper>
@@ -81,9 +84,17 @@ const HeaderTextGroup = styled.div`
     color: ${props => props.theme.color.primary};
   }
 
-  h2 {
-    margin-bottom: 24px;
+  h4 {
+    margin-bottom: 0px;
+    ${props => props.theme.font_size.large}
+    ${props => props.theme.font.normal};
+  }
+
+  h5 {
+    color: ${props => props.theme.color.secondary};
+    margin-top: 4px;
     ${props => props.theme.font_size.regular}
+    ${props => props.theme.font.primary};
   }
 
   p {
@@ -152,22 +163,21 @@ const HeaderInput = styled.input`
 `
 
 const HeaderButton = styled.button`
-  font-weight: 500;
+  font-weight: 700;
   font-size: 14px;
-  color: white;
+  color: ${props => props.theme.color.primary};
   letter-spacing: 1px;
-  height: 60px;
+  height: 50px;
   display: block;
-  margin-left: 8px;
   text-transform: uppercase;
   cursor: pointer;
   white-space: nowrap;
-  background: ${props => props.theme.color.secondary};
-  border-radius: 4px;
+  background: ${props => props.theme.color.background.white};
   padding: 0px 40px;
-  border-width: 0px;
-  border-style: initial;
-  border-color: initial;
+  border-width: 1px;
+  border-radius: 25px;
+  border-style: solid;
+  border-color: ${props => props.theme.color.primary};
   border-image: initial;
   outline: 0px;
   &:hover {

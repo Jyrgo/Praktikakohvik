@@ -35,7 +35,7 @@ const FooterWrapper = styled.footer`
 `
 
 const Logo = styled.div`
-  font-family: ${props => props.theme.font.extrabold};
+  ${props => props.theme.font.extrabold};
   ${props => props.theme.font_size.regular};
   color: ${props => props.theme.color.black.regular};
   text-decoration: none;
@@ -64,7 +64,7 @@ const FooterColumnContainer = styled(Container)`
 const FooterColumn = styled.div`
   span {
     font-size: 16px;
-    font-family: ${props => props.theme.font.bold};
+    ${props => props.theme.font.bold};
     color: ${props => props.theme.color.primary};
   }
   ul {
@@ -74,7 +74,7 @@ const FooterColumn = styled.div`
     color: ${props => props.theme.color.black.regular};
     li {
       margin-bottom: 12px;
-      font-family: ${props => props.theme.font.normal};
+      ${props => props.theme.font.normal};
       font-size: 15px;
     }
   }

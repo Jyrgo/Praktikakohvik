@@ -2,14 +2,15 @@
 
 const theme = {
   font: {
-    primary: `'Nunito Sans'`,
-    secondary: `'Nunito Sans'`,
-    light: `'Nunito Sans'`,
-    normal: `'Nunito Sans'`,
-    medium: `'Nunito Sans'`,
-    semibold: `'Nunito Sans'`,
-    bold: `'Nunito Sans'`,
-    extrabold: `'Nunito Sans'`,
+    primary: "font-family: Nunito Sans; font-weight: 400",
+    secondary: "font-family: Montserrat; font-weight: 400",
+    tertiary: "font-family: Lato; font-weight: 400",
+    light: "font-family: Nunito Sans; font-weight: 300",
+    normal: "font-family: Montserrat; font-weight: 600",
+    medium: "font-family: Lato; font-weight: 700",
+    bold: "font-family: Nunito Sans; font-weight: 700",
+    extrabold: "font-family: Nunito Sans; font-weight: 800",
+    black: "font-family: Nunito Sans; font-weight: 900",
   },
   font_size: {
     xxxsmall: "font-size: 12px;",
@@ -23,13 +24,13 @@ const theme = {
   },
 
   color: {
-    primary: "#1D1D90",
-    secondary: "#1E2F4F",
+    primary: "#000084",
+    secondary: "#00006C",
     tertiary: "#1B2C4A",
     accent: "#cca86e",
     background: {
       white: "#ffffff",
-      light: "#f8f8f8",
+      light: "#f9f9ff",
     },
     white: {
       regular: "#ffffff",

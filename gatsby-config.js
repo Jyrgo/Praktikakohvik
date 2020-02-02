@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Starter SaaS Marketing`,
-    description: `A simple one page marketing starter for saas companies.`,
-    author: `Keegan Burkett`,
+    title: `Praktikakohvik 2020`,
+    description: `TalTech Praktikakohvik 2020 Mektory's.`,
+    author: `Jürgo Pukk, Jan Joonas Parve`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -13,7 +13,15 @@ module.exports = {
         fonts: [
           {
             family: `Nunito Sans`,
-            variants: [`300`, `400`, `600`, `700`],
+            variants: [`400`, `700`, `800`, `900`],
+          }
+          {
+            family: `Lato`,
+            variants: [`400`, `700`],
+          },
+          {
+            family: `Montserrat`,
+            variants: [`400`, `600`],
           },
         ],
       },
