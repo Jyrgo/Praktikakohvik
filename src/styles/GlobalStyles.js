@@ -20,7 +20,7 @@ const GlobalStyles = createGlobalStyle`
   
   h1 {
     ${props => props.theme.font_size.xlarge};
-    ${props => props.theme.font.bold};
+    ${props => props.theme.font.extrabold};
     
   }
 

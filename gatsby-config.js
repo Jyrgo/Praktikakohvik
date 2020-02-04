@@ -14,7 +14,7 @@ module.exports = {
           {
             family: `Nunito Sans`,
             variants: [`400`, `700`, `800`, `900`],
-          }
+          },
           {
             family: `Lato`,
             variants: [`400`, `700`],
@@ -30,8 +30,8 @@ module.exports = {
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        name: `product`,
-        path: `${__dirname}/src/images/product`,
+        name: `svg`,
+        path: `${__dirname}/src/images/svg`,
       },
     },
     `gatsby-transformer-sharp`,

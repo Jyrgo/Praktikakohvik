@@ -8,12 +8,8 @@ import { Container } from "../global"
 const Header = () => {
   const data = useStaticQuery(graphql`
     query {
-      file(sourceInstanceName: { eq: "product" }, name: { eq: "green-skew" }) {
-        childImageSharp {
-          fluid(maxWidth: 1000) {
-            ...GatsbyImageSharpFluid_tracedSVG
-          }
-        }
+      file(sourceInstanceName: { eq: "svg" }, name: { eq: "office" }) {
+        publicURL
       }
     }
   `)
@@ -41,7 +37,7 @@ const Header = () => {
             <HeaderButton>Registreeri</HeaderButton>
           </HeaderTextGroup>
           <ImageWrapper>
-            <StyledImage fluid={data.file.childImageSharp.fluid} />
+            <img src={data.file.publicURL} width="480" />
             <br />
           </ImageWrapper>
         </Flex>
@@ -82,6 +78,7 @@ const HeaderTextGroup = styled.div`
   h1 {
     margin: 0 0 24px;
     color: ${props => props.theme.color.primary};
+    ${props => props.theme.font.extrabold};
   }
 
   h4 {
