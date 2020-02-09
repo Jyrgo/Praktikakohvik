@@ -24,13 +24,14 @@ const theme = {
   },
 
   color: {
-    primary: "#000084",
+    primary: "#1D1D90",
     secondary: "#00006C",
     tertiary: "#1B2C4A",
     accent: "#cca86e",
     background: {
       white: "#ffffff",
       light: "#f9f9ff",
+      darker: "#F4F5FB",
     },
     white: {
       regular: "#ffffff",
@@ -39,7 +40,7 @@ const theme = {
       darker: "#eeeeee",
     },
     black: {
-      lightest: "#ABA8AF",
+      lightest: "#E7ECF7",
       light: "#564F62",
       regular: "#071435",
     },

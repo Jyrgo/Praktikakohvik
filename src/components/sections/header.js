@@ -1,7 +1,6 @@
 import React from "react"
 import styled from "styled-components"
 import { graphql, useStaticQuery, Link } from "gatsby"
-import Img from "gatsby-image"
 
 import { Container } from "../global"
 
@@ -24,7 +23,7 @@ const Header = () => {
         <Flex>
           <HeaderTextGroup>
             <h4>
-              21.02
+              10.03
             </h4>
             <h5>
               Mektory, Raja 15a
@@ -37,7 +36,7 @@ const Header = () => {
             <HeaderButton>Registreeri</HeaderButton>
           </HeaderTextGroup>
           <ImageWrapper>
-            <img src={data.file.publicURL} width="480" />
+            <StyledImage src={data.file.publicURL} width="480" alt="man in an office" />
             <br />
           </ImageWrapper>
         </Flex>
@@ -49,10 +48,8 @@ const Header = () => {
 export default Header
 
 const HeaderWrapper = styled.header`
-  background-color: #f8f8f8;
   padding: 160px 0 80px 0;
   position: relative;
-  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 calc(100% - 5vw));
   @media (max-width: ${props => props.theme.screen.md}) {
   }
 `
@@ -109,7 +106,7 @@ const Flex = styled.div`
     grid-gap: 64px;
   }
 `
-
+/*
 const HeaderForm = styled.form`
   display: flex;
   flex-direction: row;
@@ -157,7 +154,7 @@ const HeaderInput = styled.input`
     display: block;
     width: 100%;
   }
-`
+`*/
 
 const HeaderButton = styled.button`
   font-weight: 700;
@@ -186,6 +183,7 @@ const HeaderButton = styled.button`
     margin-left: 0;
   }
 `
+
 const ImageWrapper = styled.div`
   justify-self: end;
   align-self: center;
@@ -194,12 +192,12 @@ const ImageWrapper = styled.div`
   }
 `
 
-const StyledImage = styled(Img)`
+const StyledImage = styled.img`
   width: 500px;
-  @media (max-width: ${props => props.theme.screen.md}) {
+  @media (max-width: ${props => props.theme.screen.lg}) {
     width: 400px;
   }
-  @media (max-width: ${props => props.theme.screen.sm}) {
+  @media (max-width: ${props => props.theme.screen.md}) {
     width: 300px;
     display: none;
   }
