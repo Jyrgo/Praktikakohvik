@@ -32,7 +32,14 @@ module.exports = {
       options: {
         name: `svg`,
         path: `${__dirname}/src/images/svg`,
-      },
+      }
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `png`,
+        path: `${__dirname}/src/images/png`,
+      }
     },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,

@@ -35,7 +35,7 @@ const theme = {
     },
     white: {
       regular: "#ffffff",
-      lessdark: "#faf9f8",
+      lessdark: "#ADB6C4",
       dark: "#f6f6f6",
       darker: "#eeeeee",
     },
