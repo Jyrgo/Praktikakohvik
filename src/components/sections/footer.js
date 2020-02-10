@@ -43,7 +43,7 @@ const Footer = () => {
           <br />
         </ImageWrapper>
 
-        <TalTechSpan>Tallinna Tehnikaülikooli IT teaduskonna üliõpilaskogu</TalTechSpan>
+        <TalTechSpan>Tallinna Tehnikaülikooli IT-teaduskonna üliõpilaskogu</TalTechSpan>
         <SocialList>
           <li>
             <a href="https://www.facebook.com/ituk.ttu/" target="_blank">
@@ -67,7 +67,7 @@ const Footer = () => {
         <span>Kontaktid</span>
         <div>
           <ContactImage src={data.image5.publicURL} width="30" alt="location tag" />
-          <span>Mektroy <br/> Raja 15, Tallinn</span>
+          <span>Mektory <br/> Raja 15, Tallinn</span>
         </div>
         <div>
           <ContactImage src={data.image6.publicURL} width="30" alt="mail svg" />
@@ -81,7 +81,7 @@ const Footer = () => {
 
     </FooterColumnContainer>
     <Copyright>
-      © 2020 copyright all right reserved by ITÜK
+      © 2020 ITÜK. All rights reserved.
     </Copyright>
   </FooterWrapper>
   )
