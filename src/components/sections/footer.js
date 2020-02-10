@@ -108,8 +108,8 @@ const FooterColumnContainer = styled(Container)`
   border-bottom-style: solid;
   border-bottom-width: 1px;
   border-bottom-color: ${props => props.theme.color.white.lessdark};
-  @media (max-width: ${props => props.theme.screen.sm}) {
-    justify-content: column;
+  @media (max-width: ${props => props.theme.screen.xs}) {
+    flex-direction: column;
   }
 `
 
@@ -120,16 +120,11 @@ const FooterColumn = styled.div`
     ${props => props.theme.font.regular};
     color: ${props => props.theme.color.white.lessdark};
   }
-  ul {
-    list-style: none;
-    margin: 30px 0;
-    padding: 0;
-    color: ${props => props.theme.color.white.regular};
-    li {
-      margin-bottom: 12px;
-      ${props => props.theme.font.normal};
-      font-size: 15px;
-    }
+  
+  @media (max-width: ${props => props.theme.screen.xs}) {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
   }
 `
 
@@ -139,9 +134,6 @@ const ImageWrapper = styled.div`
 
 const StyledImage = styled.img`
   width: 250px;
-  @media (max-width: ${props => props.theme.screen.lg}) {
-    width: 200px;
-  }
   @media (max-width: ${props => props.theme.screen.md}) {
     width: 200px;
   }
@@ -149,23 +141,24 @@ const StyledImage = styled.img`
 
 const SocialImage = styled.img`
   width: 30px;
-  @media (max-width: ${props => props.theme.screen.lg}) {
-    width: 30px;
-  }
-  @media (max-width: ${props => props.theme.screen.md}) {
-    width: 30px;
-  }
 `
 
 const SocialList = styled.ul`
   width: 150px;
   display: flex;
   justify-content: space-between;
-  @media (max-width: ${props => props.theme.screen.lg}) {
-    width: 120px;
+  list-style: none;
+  margin: 30px 0;
+  padding: 0;
+  color: ${props => props.theme.color.white.regular};
+  li {
+      margin-bottom: 12px;
+      ${props => props.theme.font.normal};
+      font-size: 15px;
   }
-  @media (max-width: ${props => props.theme.screen.md}) {
+  @media (max-width: ${props => props.theme.screen.xs}) {
     width: 120px;
+    margin: 30px auto;
   }
 `
 
@@ -192,6 +185,13 @@ const ContactColumn = styled.div`
       color: ${props => props.theme.color.white.lessdark};  
     }
   }
+  @media (max-width: ${props => props.theme.screen.xs}) {
+    width: 100%;
+    text-align: center;
+    div {
+      width: 192px;
+      margin: 20px auto;
+    }
 `
 
 const ContactImage = styled.img`
