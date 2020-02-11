@@ -46,17 +46,17 @@ const Footer = () => {
         <TalTechSpan>Tallinna Tehnikaülikooli IT-teaduskonna üliõpilaskogu</TalTechSpan>
         <SocialList>
           <li>
-            <a href="https://www.facebook.com/ituk.ttu/" target="_blank">
+            <a href="https://www.facebook.com/ituk.ttu/" target="_blank" rel="noopener noreferrer">
               <SocialImage src={data.image2.publicURL} width="30" alt="facebook logo" />
             </a>
           </li>
           <li>
-            <a href="https://www.instagram.com/ituk.taltech/" target="_blank">
+            <a href="https://www.instagram.com/ituk.taltech/" target="_blank" rel="noopener noreferrer">
               <SocialImage src={data.image3.publicURL} width="30" alt="instagram logo" />
             </a>
           </li>
           <li>
-            <a href="https://ituk.ee/" target="_blank">
+            <a href="https://ituk.ee/" target="_blank" rel="noopener noreferrer">
               <SocialImage src={data.image4.publicURL} width="30" alt="ituk logo" />
             </a>
           </li>

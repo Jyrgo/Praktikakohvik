@@ -21,39 +21,83 @@ const Companies = () => {
     }
 
     `)
+    /*
+    const company = graphql`
+    query {
+      allCompaniesJson (
+        where: {name: {_eq: "abb"}}
+      ) {
+        name
+        about
+      }
+    }
+    `*/
 
     console.log("before");
+    const items = []
 
     data.allCompaniesJson.edges.forEach(item =>
-        console.log(item.node.company.name)
+        items.push(<Button>{item.node.company.name}</Button>)
     );
     console.log("after");
 
     return (
-        <Section id="questions">
-            <StyledContainer>
-                <BackgroundTitle>MÕISTLIK KÜSIDA</BackgroundTitle>
-                <SectionTitle>Mida küsida?</SectionTitle>
-                <SubText>Enne üritusele tulemist on mõistlik ette valmistada mõned küsimused tööandjatele. Siin on mõned
-                    näited.</SubText>
-
-                <List>
-                    <li>Mis oskusi on vaja, et mingile kohale kandideerida?</li>
-                    <li>Milliseid tehnoloogiad firmas kasutatakse?</li>
-                    <li>Mida oodata palga suhtes?</li>
-                    <li>Milline näeb välja kontori igapäev?</li>
-                    <li>Milline on töökoormus?</li>
-                    <li>Kui paindlik on tudengina tööl käimise juures graafik või koormus?</li>
-                    <li>Mis on ettevõttes arenemisvõimalused? Kas pakutakse mingeid lisakoolitusi?</li>
-                </List>
-            </StyledContainer>
-        </Section>
+      <Container>
+        <BackgroundTitle>KES ON KOHAL?</BackgroundTitle>
+        <SectionTitle>Kes on kohal?</SectionTitle>
+        <Flex>
+          <ContainerItem>
+            {items}
+          </ContainerItem>
+          <ContainerItem>
+            
+          </ContainerItem>
+        </Flex>
+      </Container>
     )
 }
 
 export default Companies
 
 const StyledContainer = styled(Container)``
+
+const ContainerItem = styled.div`
+  display: flex;
+  width: 48%;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  align-self: start;
+  @media (max-width: ${props => props.theme.screen.sm}) {
+    width: 100%;
+  }
+`
+const Button = styled.button`
+  ${props => props.theme.font.normal};
+  ${props => props.theme.font_size.xxsmall};
+  color: ${props => props.theme.color.primary};
+  line-height: 30px;
+  letter-spacing: 1px;
+  margin: 10px 10px;
+  text-transform: uppercase;
+  cursor: pointer;
+  white-space: nowrap;
+  background: ${props => props.theme.color.background.white};
+  padding: 0px 20px;
+  border-width: 1px;
+  border-radius: 15px;
+  border-style: solid;
+  border-color: ${props => props.theme.color.primary};
+  border-image: initial;
+  outline: 0px;
+  &:hover {
+    box-shadow: rgba(110, 120, 152, 0.22) 0px 2px 10px 0px;
+  }
+  @media (max-width: ${props => props.theme.screen.md}) {
+  }
+  @media (max-width: ${props => props.theme.screen.sm}) {
+    margin-left: 0;
+  }
+`
 
 const SectionTitle = styled.h1`
   ${props => props.theme.font_size.larger};
@@ -64,11 +108,12 @@ const SectionTitle = styled.h1`
   text-align: center;
 `
 
-const List = styled.ul`
-  margin: 20px auto;
-  li {
-    color: ${props => props.theme.color.tertiary};
-    margin: 16px auto;
+const Flex = styled.div`
+  display: flex;
+  justify-content: space-between;
+  @media (max-width: ${props => props.theme.screen.sm}) {
+    flex-direction: column;
+    justify-content: center;
   }
 `
 
@@ -81,9 +126,3 @@ const BackgroundTitle = styled.h5`
   margin-bottom: -20px;
   text-align: center;
 `
-
-const SubText = styled.p`
-  text-align: center;
-  color: ${props => props.theme.color.tertiary};
-`
-

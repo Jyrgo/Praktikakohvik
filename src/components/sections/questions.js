@@ -52,7 +52,7 @@ const BackgroundTitle = styled.h5`
   color: ${props => props.theme.color.black.lightest};
   letter-spacing: 10px;
   opacity: 0.4;
-  margin-bottom: -20px;
+  margin: 0px auto -20px;
   text-align: center;
 `
 
