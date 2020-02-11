@@ -1,0 +1,44 @@
+[
+  {
+    "company": {
+      "name": "Aiotex",
+      "about": "is an IoT hardware, software and services company. Our goal is to make businesses more efficient and cost effective by using analytics and smart solutions fit for today's needs and requirements. We develop products in the following areas: - Sensors - measuring different environmental parameters from temperatur to air quality, we provide data on every metric possible to measure; - Automation - combining our sensors data with our automation controllers we can monitor and manage wide variety of systems and processes in home or business. - Dashboard - We perform data analysis and visualize results to human readable form. - Integrations - we have extensive experience in the field of integrations - both software and hardware based.",
+      "image": "somepath"
+    }
+  },
+    {
+    "company": {
+      "name": "abb",
+      "about": "ABB is a pioneering technology leader in electrification products, robotics and motion, industrial automation and power grids, serving customers in utilities, industry and transport & infrastructure globally. Continuing a history of innovation spanning more than 130 years, ABB today is writing the future of industrial digitalization with two clear value propositions: bringing electricity from any power plant to any plug and automating industries from natural resources to finished products. As title partner of Formula E, the fully electric international FIA motorsport class, ABB is pushing the boundaries of mobility to contribute to a sustainable future. ABB operates in more than 100 countries with about 135,000 employees.",
+      "image": "somepath"
+    }
+  },
+  {
+    "company": {
+      "name": "AFS IT Services Estonia",
+      "about": "or IT Development and Innovation Centre is part of Arvato Financial Solutions that is synonymous with professional financial outsourcing services centering on cash flow in all phases of the customer lifecycle. The portfolio covers a wide range of stand-alone solutions – from fraud prevention and risk management to invoicing and debtor management, the sale of receivables and debt collection, also fully integrated end-to-end order-to-cash solutions. The purpose of the IT Services Estonia is to drive growth and innovation in IT for Arvato Financial Solutions and therefore requires a high caliber of experience and entrepreneurial problem solving IT resources. The organization is a valued partner for other Arvato IT departments and over time has become the go-to IT organization for new developments projects.",
+      "image": "somepath"
+    }
+  },
+  {
+    "company": {
+      "name": "Avalanche Laboratory",
+      "about": "Väärtused: Eristumine ja energia. Tulevikuvisioonid: Ambitsioonikad laienemise plaanid mitmesse välisriiki järgnevate aastate jooksul. Statistika: Meil töötab kokku 80+ töötajat, kellest enamus asuvad Eesti peakontoris Tallinnas, väiksemad äriüksused on ka Lätis ja Leedus. Töö- ja praktikavõimalused: Kiiresti areneva IT tarkvaraarenduse ettevõttena on peamised ametikohad, kuhu kogu aeg jooksvalt inimesi juurde värbame järgmised: IT projektijuht, Java arendaja/arhitekt, Ruby arendaja, süsteemianalüütik, andmeaida arendaja/analüütik jne. Miks just meie? Suurepärane võimalus õppida oma ala ekspertidelt ning anda oma panus ettevõtte edasi arendamisse ja kasvatamisse. Heade töötulemuste ja ambitsiooni korral võimalus kiiresti edasi areneda.",
+      "image": "somepath"
+    }
+  },
+  {
+    "company": {
+      "name": "CGI Eesti",
+      "about": "on üks suurimaid äriprotsesside ja IT- lahenduste pakkujaid maailmas, kus töötab 74 000 pühendunud professionaali enam kui 40 riigis - neist 200 Eestis, Tallinna ja Tartu kontoris. Pakume tarkvaralahendusi ja toimetame nii kohalikes kui ka rahvusvahelistes projektides kaugseire, geoinfosüsteemide ja kosmose valdkonnas, kuid ka e- riigi, energeetika, küberturvalisuse, targa linna, kindlustuse, õigus- ja finantsvaldkonnas ning lisaks arendame mitmeid enda IP-sid. Meie juures saad avastada erinevaid valdkondi, lahendusi, erialasid ning kõike seda paindliku tööaja- ja kohaga. Lisaks peame oluliseks, et CGI-s töötamine oleks arendav ja väljakutseid esitav, aga samas ka põnev ja lõbus. Seega kui tunned, et sooviksid end arendada ja proovile panna analüütiku, tarkvaraarendaja, testijana (või ka tooteomaniku, rakendusadministraatorina), siis oled kindlasti oodatud meiega liituma. Katarina Künnapas, Värbaja katarina.kunnapas@cgi.com 59193220.",
+      "image": "somepath"
+    }
+  },
+  {
+    "company": {
+      "name": "Cleveron",
+      "about": "on maailmas innovatsiooniliider robootiliste pakiautomaatide ja viimase miili click and collect-lahenduste loomisel jae- ning logistikasektorile. Oleme kiiresti arenev tehnoloogiaettevõte, mille alustalaks on innovatsioon. Meie sooviks on aidata inimestel säästa aega, ressurssi, mis muutub aina väärtuslikumaks nii ettevõtete kui ka tarbijate jaoks. Selleks loome me lahendusi, millest keegi ei oskagi veel unistada, kuid mida on inimestele väga vaja. Me loome tulevikku. Kui soovid täpsemalt teada, kuidas on võimalik pakirobotite arendusega tulevikku luua ning säästa aastatuhandete jagu aega, siis tule ja kohtu Cleveroni esindajatega.",
+      "image": "somepath"
+    }
+  }
+]

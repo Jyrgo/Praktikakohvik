@@ -7,6 +7,7 @@ module.exports = {
   plugins: [
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-styled-components`,
+    `gatsby-transformer-json`,
     {
       resolve: `gatsby-plugin-prefetch-google-fonts`,
       options: {
@@ -39,6 +40,13 @@ module.exports = {
       options: {
         name: `png`,
         path: `${__dirname}/src/images/png`,
+      }
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `data`,
+        path: `${__dirname}/src/content/`,
       }
     },
     `gatsby-transformer-sharp`,
