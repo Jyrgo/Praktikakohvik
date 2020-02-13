@@ -1,7 +1,7 @@
 import React from "react"
 import styled from "styled-components"
 
-import { Section, Container } from "../global"
+import { Container } from "../global"
 import {graphql, useStaticQuery} from "gatsby";
 
 const Companies = () => {
@@ -58,8 +58,6 @@ const Companies = () => {
 }
 
 export default Companies
-
-const StyledContainer = styled(Container)``
 
 const ContainerItem = styled.div`
   display: flex;

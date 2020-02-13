@@ -56,33 +56,6 @@ const BackgroundTitle = styled.h5`
   text-align: center;
 `
 
-const FeaturesGrid = styled.div`
-  max-width: 670px;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  margin: 0px auto;
-  grid-column-gap: 40px;
-  grid-row-gap: 35px;
-  @media (max-width: ${props => props.theme.screen.sm}) {
-    grid-template-columns: 1fr;
-    padding: 0 64px;
-  }
-`
-
-const FeatureItem = styled.div`
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-`
-
-const FeatureTitle = styled.h4`
-  color: ${props => props.theme.color.primary};
-  letter-spacing: 0px;
-  line-height: 30px;
-  margin-bottom: 10px;
-`
-
 const SubText = styled.p`
   text-align: center;
   color: ${props => props.theme.color.tertiary};
