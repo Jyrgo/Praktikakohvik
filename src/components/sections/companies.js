@@ -5,6 +5,7 @@ import { Container } from "../global"
 import {graphql, useStaticQuery} from "gatsby";
 
 const Companies = () => {
+
     const data = useStaticQuery(graphql`
     query {
       allCompaniesJson {
@@ -21,25 +22,45 @@ const Companies = () => {
     }
 
     `)
-    /*
-    const company = graphql`
-    query {
-      allCompaniesJson (
-        where: {name: {_eq: "abb"}}
-      ) {
-        name
-        about
-      }
-    }
-    `*/
 
-    console.log("before");
-    const items = []
-
+    const items = [];
+    //generate array of company names from graphql query
     data.allCompaniesJson.edges.forEach(item =>
-        items.push(<Button>{item.node.company.name}</Button>)
+        items.push(
+            <Button value={item.node.company.name}
+            onClick={e => changeCompanyInfo(e.target.value)} >
+            {item.node.company.name}
+            </Button>)
     );
-    console.log("after");
+
+    let companyData = {};
+    //creates an object of objects that contain the company information
+    async function getCompanyData() {
+        return new Promise((resolve, reject) => {
+            try {
+                resolve(
+                    data.allCompaniesJson.edges.forEach(item =>
+                        companyData[item.node.company.name] = [item.node.company.about, item.node.company.image]
+                    )
+                );
+            } catch (err) {
+                console.log('Error parsing JSON string:', err)
+            }
+        })
+    }
+
+    getCompanyData();
+
+    function changeCompanyInfo(somename) {
+        nameRef.current.innerHTML = somename;
+        aboutRef.current.innerHTML = companyData[somename][0];
+    }
+
+    let companyName = "Aiotex";
+    let companyAbout = companyData[companyName];
+
+    const nameRef = React.createRef();
+    const aboutRef = React.createRef();
 
     return (
       <Container>
@@ -50,7 +71,8 @@ const Companies = () => {
             {items}
           </ContainerItem>
           <ContainerItem>
-            
+            <span ref={ nameRef }>{ companyName }</span>
+            <div ref={ aboutRef }>{ companyAbout }</div>
           </ContainerItem>
         </Flex>
       </Container>
@@ -65,10 +87,24 @@ const ContainerItem = styled.div`
   flex-wrap: wrap;
   align-items: flex-start;
   align-self: start;
+  span {
+    text-transform: uppercase;
+    color: ${props => props.theme.color.black.secondary};
+    ${props => props.theme.font.primary};
+    ${props => props.theme.font_size.larger};
+    margin-bottom: 35px;
+  }
+  div {
+    color: ${props => props.theme.color.black.secondary};
+    ${props => props.theme.font.primary};
+    ${props => props.theme.font_size.small};
+    line-height: 30px;
+  }
   @media (max-width: ${props => props.theme.screen.sm}) {
     width: 100%;
   }
 `
+
 const Button = styled.button`
   ${props => props.theme.font.normal};
   ${props => props.theme.font_size.xxsmall};
@@ -124,3 +160,4 @@ const BackgroundTitle = styled.h5`
   margin-bottom: -20px;
   text-align: center;
 `
+

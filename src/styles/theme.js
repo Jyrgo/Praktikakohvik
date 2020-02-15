@@ -43,6 +43,7 @@ const theme = {
       lightest: "#E7ECF7",
       light: "#564F62",
       regular: "#071435",
+      secondary: "#1B2C4A",
     },
   },
   screen: {
