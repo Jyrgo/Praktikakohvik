@@ -13,10 +13,6 @@ const Header = () => {
     }
   `)
 
-  const handleSubmit = event => {
-    event.preventDefault()
-  }
-
   return (
     <HeaderWrapper id="top">
       <Container>
@@ -33,7 +29,9 @@ const Header = () => {
               <br />
               PRAKTIKAKOHT
             </h1>
-            <HeaderButton>Registreeri</HeaderButton>
+            <a href="http://docs.google.com/forms/d/1ib56dZls3jqcHJA4UqQjKSPvjaAiIanZtEViNfTM0zU" target="_blank" rel="noopener noreferrer">
+              <HeaderButton>Registreeri</HeaderButton>
+            </a>
           </HeaderTextGroup>
           <ImageWrapper>
             <StyledImage src={data.file.publicURL} width="480" alt="man in an office" />
@@ -56,6 +54,10 @@ const HeaderWrapper = styled.header`
 
 const HeaderTextGroup = styled.div`
   margin: 0;
+
+  > a {
+    text-decoration: none;
+  }
 
   > div {
     width: 120%;

@@ -4,7 +4,7 @@ import styled from "styled-components"
 import { Section, Container } from "../global"
 
 const Questions = () => (
-  <Section id="questions">
+  <Section id="küsimused">
     <StyledContainer>
       <BackgroundTitle>MÕISTLIK KÜSIDA</BackgroundTitle>
       <SectionTitle>Mida küsida?</SectionTitle>
@@ -22,8 +22,6 @@ const Questions = () => (
     </StyledContainer>
   </Section>
 )
-
-
 
 export default Questions
 
@@ -60,4 +58,3 @@ const SubText = styled.p`
   text-align: center;
   color: ${props => props.theme.color.tertiary};
 `
-

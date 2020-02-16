@@ -1,8 +1,8 @@
 import React from "react"
 import styled from "styled-components"
 
-import { Container } from "../global"
-import {graphql, useStaticQuery} from "gatsby";
+import { Section, Container } from "../global"
+import { graphql, useStaticQuery } from "gatsby";
 
 const Companies = () => {
 
@@ -63,19 +63,21 @@ const Companies = () => {
     const aboutRef = React.createRef();
 
     return (
-      <Container>
-        <BackgroundTitle>KES ON KOHAL?</BackgroundTitle>
-        <SectionTitle>Kes on kohal?</SectionTitle>
-        <Flex>
-          <ContainerItem>
-            {items}
-          </ContainerItem>
-          <ContainerItem>
-            <span ref={ nameRef }>{ companyName }</span>
-            <div ref={ aboutRef }>{ companyAbout }</div>
-          </ContainerItem>
-        </Flex>
-      </Container>
+      <Section id="firmad">
+        <Container>
+          <BackgroundTitle>KES ON KOHAL?</BackgroundTitle>
+          <SectionTitle>Kes on kohal?</SectionTitle>
+          <Flex>
+            <ContainerItem>
+              {items}
+            </ContainerItem>
+            <ContainerItem>
+              <span ref={ nameRef }>{ companyName }</span>
+              <div ref={ aboutRef }>{ companyAbout }</div>
+            </ContainerItem>
+          </Flex>
+        </Container>
+      </Section>
     )
 }
 
@@ -160,4 +162,3 @@ const BackgroundTitle = styled.h5`
   margin-bottom: -20px;
   text-align: center;
 `
-
