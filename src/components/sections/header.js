@@ -35,7 +35,6 @@ const Header = () => {
           </HeaderTextGroup>
           <ImageWrapper>
             <StyledImage src={data.file.publicURL} width="480" alt="man in an office" />
-            <br />
           </ImageWrapper>
         </Flex>
       </Container>
@@ -99,7 +98,6 @@ const Flex = styled.div`
   grid-template-columns: 1fr 1fr;
   @media (max-width: ${props => props.theme.screen.md}) {
     grid-template-columns: 1fr;
-    grid-gap: 64px;
   }
 `
 
@@ -136,6 +134,7 @@ const ImageWrapper = styled.div`
   align-self: center;
   @media (max-width: ${props => props.theme.screen.md}) {
     justify-self: center;
+    display: none;
   }
 `
 

@@ -1,5 +1,6 @@
 import React from "react"
 import styled from "styled-components"
+import AnchorLink from "react-anchor-link-smooth-scroll"
 
 import { Section, Container } from "../global"
 import { graphql, useStaticQuery } from "gatsby";
@@ -69,9 +70,12 @@ const Companies = () => {
           <SectionTitle>Kes on kohal?</SectionTitle>
           <Flex>
             <ContainerItem>
-              {items}
+              <AnchorLink href="#info" offset="92">
+                {items}
+              </AnchorLink>
             </ContainerItem>
-            <ContainerItem>
+            <br />
+            <ContainerItem id="info">
               <span ref={ nameRef }>{ companyName }</span>
               <div ref={ aboutRef }>{ companyAbout }</div>
             </ContainerItem>
@@ -83,7 +87,7 @@ const Companies = () => {
 
 export default Companies
 
-const ContainerItem = styled.div`
+const ContainerItem = styled.section`
   display: flex;
   width: 48%;
   flex-wrap: wrap;
