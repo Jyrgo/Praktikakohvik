@@ -39,6 +39,7 @@ const SectionTitle = styled.h1`
 const List = styled.ul`
   margin: 20px auto;
   li {
+    ${props => props.theme.font_size.small};
     color: ${props => props.theme.color.tertiary};
     margin: 16px auto;
   }
