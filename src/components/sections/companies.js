@@ -100,6 +100,9 @@ const ContainerItem = styled.section`
     ${props => props.theme.font.primary};
     ${props => props.theme.font_size.larger};
     margin-bottom: 35px;
+    @media (max-width: ${props => props.theme.screen.sm}) {
+      ${props => props.theme.font_size.regular};
+    }
   }
   div {
     color: ${props => props.theme.color.black.secondary};
