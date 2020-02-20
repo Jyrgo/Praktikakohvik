@@ -28,10 +28,13 @@ const Companies = () => {
     //generate array of company names from graphql query
     data.allCompaniesJson.edges.forEach(item =>
         items.push(
+            <AnchorLink href="#info" offset="92">
             <Button value={item.node.company.name}
             onClick={e => changeCompanyInfo(e.target.value)} >
             {item.node.company.name}
-            </Button>)
+            </Button>
+            </AnchorLink>
+        )
     );
 
     let companyData = {};
@@ -70,9 +73,7 @@ const Companies = () => {
           <SectionTitle>Kes on kohal?</SectionTitle>
           <Flex>
             <ContainerItem>
-              <AnchorLink href="#info" offset="92">
                 {items}
-              </AnchorLink>
             </ContainerItem>
             <br />
             <ContainerItem id="info">
