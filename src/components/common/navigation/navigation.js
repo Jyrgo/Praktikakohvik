@@ -14,7 +14,7 @@ import {
   Mobile,
 } from "./style"
 
-const NAV_ITEMS = ["ÜRITUSEST", "FIRMAD", ""]
+const NAV_ITEMS = ["ÜRITUSEST", "FIRMAD", "KÜSIMUSED"]
 
 export default class Navigation extends Component {
   state = {

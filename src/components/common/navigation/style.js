@@ -42,13 +42,13 @@ export const NavListWrapper = styled.div`
 
 export const NavItem = styled.li`
   margin: 0 0.75em;
-  font-family: ${props => props.theme.font.medium};
+  ${props => props.theme.font.tertiary};
   ${props => props.theme.font_size.xsmall};
 
   a {
     text-decoration: none;
     opacity: 0.9;
-    color: ${props => props.theme.color.black.regular};
+    color: ${props => props.theme.color.secondary};
   }
 
   &.active {
@@ -66,9 +66,9 @@ export const MobileMenu = styled.div`
 `
 
 export const Brand = styled.div`
-  font-family: ${props => props.theme.font.extrabold};
+  ${props => props.theme.font.bold};
   ${props => props.theme.font_size.regular};
-  color: ${props => props.theme.color.black.regular};
+  color: ${props => props.theme.color.primary};
   text-decoration: none;
   letter-spacing: 1px;
   margin: 0;
@@ -78,7 +78,7 @@ export const Brand = styled.div`
     padding: 0;
 
     a {
-      color: ${props => props.theme.color.black.regular};
+      color: ${props => props.theme.color.primary};
       text-decoration: none;
     }
   }

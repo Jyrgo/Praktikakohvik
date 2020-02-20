@@ -14,13 +14,13 @@ const GlobalStyles = createGlobalStyle`
   }
   
   body {
-    font-family: ${props => props.theme.font.primary};
+    ${props => props.theme.font.primary};
   }
 
   
   h1 {
     ${props => props.theme.font_size.xlarge};
-    font-family: ${props => props.theme.font.bold};
+    ${props => props.theme.font.extrabold};
     
   }
 
@@ -29,18 +29,18 @@ const GlobalStyles = createGlobalStyle`
   }
 
   h3 {
-    ${props => props.theme.font_size.larger};
-    font-family: ${props => props.theme.font.bold};
+    ${props => props.theme.font_size.large};
+    ${props => props.theme.font.bold};
   }
 
   h4 {
-    ${props => props.theme.font_size.large};
-    font-family: ${props => props.theme.font.bold};
+    ${props => props.theme.font_size.regular};
+    ${props => props.theme.font.bold};
   }
 
   h5 {
-    ${props => props.theme.font_size.xsmall};
-    font-family: ${props => props.theme.font.normal};
+    ${props => props.theme.font_size.small};
+    ${props => props.theme.font.primary};
   }
 
   p {
@@ -50,7 +50,7 @@ const GlobalStyles = createGlobalStyle`
   }
 
   input {
-    font-family: ${props => props.theme.font.normal};
+    ${props => props.theme.font.normal};
   }
 
   @media (max-width: ${props => props.theme.screen.sm}) {
@@ -98,6 +98,7 @@ const GlobalStyles = createGlobalStyle`
 
   button {
     border: none;
+    border-radius: 50%;
     background: none;
     outline: none;
     padding: 0;

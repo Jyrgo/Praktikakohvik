@@ -29,6 +29,25 @@ export const Container = styled.div`
   `};
 `
 
+export const BackgroundTitle = styled.h5`
+  ${props => props.theme.font_size.large};
+  ${props => props.theme.font.bold};
+  color: ${props => props.theme.color.black.lightest};
+  letter-spacing: 10px;
+  opacity: 0.4;
+  margin-bottom: -20px;
+  text-align: center;
+`
+
+export const SectionTitle = styled.h1`
+  ${props => props.theme.font_size.larger};
+  color: ${props => props.theme.color.primary};
+  display: flex;
+  justify-content: center;
+  margin: 0 auto 28px;
+  text-align: center;
+`
+
 export const Section = styled.section`
   padding: 80px 0;
   overflow: hidden;
