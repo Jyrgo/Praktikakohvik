@@ -57,7 +57,7 @@ const Companies = () => {
         aboutRef.current.innerHTML = companyData[somename][0];
     }
 
-    let companyName = "Aiotex";
+    let companyName = "Krakul OÜ";
     let companyAbout = companyData[companyName];
 
     const nameRef = React.createRef();

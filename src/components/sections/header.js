@@ -19,7 +19,8 @@ const Header = () => {
         <Flex>
           <HeaderTextGroup>
             <h4>
-              10.03
+              10.03 <br/>
+              13.00 - 16.30
             </h4>
             <h5>
               Mektory, Raja 15a
