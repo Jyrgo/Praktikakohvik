@@ -1,7 +1,7 @@
 import React from "react"
 import styled from "styled-components"
 
-import { Section, Container } from "../global"
+import { Section, Container, BackgroundTitle, SectionTitle } from "../global"
 
 const Questions = () => (
   <Section id="küsimused">
@@ -27,15 +27,6 @@ export default Questions
 
 const StyledContainer = styled(Container)``
 
-const SectionTitle = styled.h1`
-  ${props => props.theme.font_size.larger};
-  color: ${props => props.theme.color.primary};
-  display: flex;
-  justify-content: center;
-  margin: 0 auto 28px;
-  text-align: center;
-`
-
 const List = styled.ul`
   margin: 20px auto;
   li {
@@ -43,16 +34,6 @@ const List = styled.ul`
     color: ${props => props.theme.color.tertiary};
     margin: 16px auto;
   }
-`
-
-const BackgroundTitle = styled.h5`
-  ${props => props.theme.font_size.large};
-  ${props => props.theme.font.bold};
-  color: ${props => props.theme.color.black.lightest};
-  letter-spacing: 10px;
-  opacity: 0.4;
-  margin: 0px auto -20px;
-  text-align: center;
 `
 
 const SubText = styled.p`

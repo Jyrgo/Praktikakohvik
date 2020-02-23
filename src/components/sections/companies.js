@@ -2,7 +2,7 @@ import React from "react"
 import styled from "styled-components"
 import AnchorLink from "react-anchor-link-smooth-scroll"
 
-import { Section, Container } from "../global"
+import { Section, Container, BackgroundTitle, SectionTitle } from "../global"
 import { graphql, useStaticQuery } from "gatsby";
 
 const Companies = () => {
@@ -28,7 +28,7 @@ const Companies = () => {
     //generate array of company names from graphql query
     data.allCompaniesJson.edges.forEach(item =>
         items.push(
-            <AnchorLink href="#info" offset="92">
+            <AnchorLink href="#info" key={item.node.company.name} offset="92">
             <Button value={item.node.company.name}
             onClick={e => changeCompanyInfo(e.target.value)} >
             {item.node.company.name}
@@ -101,6 +101,7 @@ const ContainerItem = styled.section`
     ${props => props.theme.font_size.larger};
     margin-bottom: 35px;
     @media (max-width: ${props => props.theme.screen.sm}) {
+      margin-top: 35px;
       ${props => props.theme.font_size.regular};
     }
   }
@@ -112,6 +113,7 @@ const ContainerItem = styled.section`
   }
   @media (max-width: ${props => props.theme.screen.sm}) {
     width: 100%;
+    justify-content: center;
   }
 `
 
@@ -143,15 +145,6 @@ const Button = styled.button`
   }
 `
 
-const SectionTitle = styled.h1`
-  ${props => props.theme.font_size.larger};
-  color: ${props => props.theme.color.primary};
-  display: flex;
-  justify-content: center;
-  margin: 0 auto 28px;
-  text-align: center;
-`
-
 const Flex = styled.div`
   display: flex;
   justify-content: space-between;
@@ -159,14 +152,4 @@ const Flex = styled.div`
     flex-direction: column;
     justify-content: center;
   }
-`
-
-const BackgroundTitle = styled.h5`
-  ${props => props.theme.font_size.large};
-  ${props => props.theme.font.bold};
-  color: ${props => props.theme.color.black.lightest};
-  letter-spacing: 10px;
-  opacity: 0.4;
-  margin-bottom: -20px;
-  text-align: center;
 `
