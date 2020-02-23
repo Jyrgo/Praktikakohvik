@@ -5,6 +5,7 @@ const theme = {
     primary: "font-family: Nunito Sans; font-weight: 400",
     secondary: "font-family: Montserrat; font-weight: 400",
     tertiary: "font-family: Lato; font-weight: 400",
+    quadrary: "font-family: Nunito Sans; font-weight: 300",
     light: "font-family: Nunito Sans; font-weight: 300",
     normal: "font-family: Montserrat; font-weight: 600",
     medium: "font-family: Lato; font-weight: 700",

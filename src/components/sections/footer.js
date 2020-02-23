@@ -43,7 +43,8 @@ const Footer = () => {
           <br />
         </ImageWrapper>
 
-        <TalTechSpan>Tallinna Tehnikaülikooli IT-teaduskonna üliõpilaskogu</TalTechSpan>
+        <TalTechSpan>TalTech IT Kolledž</TalTechSpan> <br />
+        <TalTechSpan>TalTech IT-teaduskond</TalTechSpan>
         <SocialList>
           <li>
             <a href="https://www.facebook.com/ituk.ttu/" target="_blank" rel="noopener noreferrer">
@@ -96,35 +97,38 @@ const FooterWrapper = styled.footer`
 `
 
 const Copyright = styled.span`
-  font-size: 16px;
+  font-size: 15px;
   color: ${props => props.theme.color.white.lessdark};
-  margin: 30px auto;
+  margin: 20px auto;
+  margin-bottom: 0;
 `
 
 const FooterColumnContainer = styled(Container)`
   display: flex;
   justify-content: space-between;
-  margin-top: 84px;
+  margin-top: 50px;
   border-bottom-style: solid;
   border-bottom-width: 1px;
   border-bottom-color: ${props => props.theme.color.white.lessdark};
   @media (max-width: ${props => props.theme.screen.xs}) {
-    flex-direction: column;
+    justify-content: space-between;
   }
 `
 
 const FooterColumn = styled.div`
   max-width: 250px;
   span {
-    font-size: 18px;
+    font-size: 17px;
     ${props => props.theme.font.regular};
     color: ${props => props.theme.color.white.lessdark};
   }
   
   @media (max-width: ${props => props.theme.screen.xs}) {
-    width: 100%;
-    margin: 0 auto;
-    text-align: center;
+    width: 47%;
+    
+    span {
+      font-size: 15px;
+    } 
   }
 `
 
@@ -135,12 +139,15 @@ const ImageWrapper = styled.div`
 const StyledImage = styled.img`
   width: 250px;
   @media (max-width: ${props => props.theme.screen.md}) {
-    width: 200px;
+    width: 220px;
+  }
+  @media (max-width: ${props => props.theme.screen.xs}) {
+    width: 100%;
   }
 `
 
 const SocialImage = styled.img`
-  width: 30px;
+  width: 29px;
 `
 
 const SocialList = styled.ul`
@@ -158,7 +165,7 @@ const SocialList = styled.ul`
   }
   @media (max-width: ${props => props.theme.screen.xs}) {
     width: 120px;
-    margin: 30px auto;
+    
   }
 `
 
@@ -180,22 +187,30 @@ const ContactColumn = styled.div`
     justify-content: space-between;
     span {
       width: 145px;
-      font-size: 20px;
+      font-size: 16px;
       ${props => props.theme.font.primary};
       color: ${props => props.theme.color.white.lessdark};  
     }
   }
   @media (max-width: ${props => props.theme.screen.xs}) {
-    width: 100%;
-    text-align: center;
+    width: 47%; 
     div {
-      width: 192px;
-      margin: 20px auto;
+      span {
+        font-size: 15px;
+        padding-left: 10px;
+        line-height: 23px;
+      }
+    } 
+    span {
+      font-size: 20px;
     }
 `
 
 const ContactImage = styled.img`
-  width: 30px;
+  width: 25px;
+  @media (max-width: ${props => props.theme.screen.xs}) { 
+    width: 23px;    
+  }
 `
 
 export default Footer
