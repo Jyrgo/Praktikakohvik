@@ -61,7 +61,7 @@ const Companies = () => {
     }
 
     let companyName = "Krakul OÜ";
-    let companyAbout = companyData[companyName];
+    let companyAbout = companyData[companyName][0];
 
     const nameRef = React.createRef();
     const aboutRef = React.createRef();
