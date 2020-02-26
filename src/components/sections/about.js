@@ -20,9 +20,9 @@ const About = () => {
       <SectionTitle>Üritusest</SectionTitle>
 
       <AboutContainer>
-        <div>
+        <ImageDiv>
           <AboutImage src={ data.image.publicURL } />
-        </div>
+        </ImageDiv>
         <div>
           <p>Kohvile tulevad üle 30ne kohaliku ja rahvusvahelise firma, kes on saatnud oma arendajad ja värbajad,
             et tudengitega maha istuda ja vastata nende küsimustele.</p>
@@ -78,7 +78,15 @@ const AboutContainer = styled.section`
 `
 
 const AboutImage = styled.img`
-  max-width: 100%;
+  max-width: 60%;
+  @media (max-width: ${props => props.theme.screen.xs}) {
+    display: none;
+  }
+`
+
+const ImageDiv = styled.div`
+  width: 47%;
+  text-align: center;
   @media (max-width: ${props => props.theme.screen.xs}) {
     display: none;
   }

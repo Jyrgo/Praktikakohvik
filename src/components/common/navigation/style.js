@@ -62,7 +62,7 @@ export const MobileMenu = styled.div`
   width: 100%;
   height: 100vh;
   z-index: 1000;
-  background: ${props => props.theme.color.regular};
+  background: white;
 `
 
 export const Brand = styled.div`
