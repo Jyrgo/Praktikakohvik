@@ -2,7 +2,7 @@ import React from "react"
 import styled from "styled-components"
 
 import { Container, Section, BackgroundTitle, SectionTitle } from "../global"
-import {graphql, useStaticQuery} from "gatsby";
+import { graphql, useStaticQuery } from "gatsby";
 
 const About = () => {
   const data = useStaticQuery(graphql`
@@ -38,17 +38,6 @@ const About = () => {
 }
 
 export default About
-
-const Info = styled.div`
-  ${props => props.theme.font_size.small}
-
-  margin: 20px auto;
-  text-align: center;
-  color: ${props => props.theme.color.tertiary};
-
-  @media (min-width: ${props => props.theme.screen.md}) {
-    padding: 0px 100px;
-`
 
 const AboutContainer = styled.section`
   ${props => props.theme.font_size.small}

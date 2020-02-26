@@ -11,6 +11,10 @@ yarn global add gatsby-cli
 ---
 install dependencies: 
 ```sh
+npm install
+```
+or
+```sh
 yarn install
 ```
 ---
