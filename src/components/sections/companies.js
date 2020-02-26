@@ -78,7 +78,7 @@ const Companies = () => {
             <br />
             <ContainerItem id="info">
               <span ref={ nameRef }>{ companyName }</span>
-              <div ref={ aboutRef }>{ companyAbout }></div>
+              <div ref={ aboutRef }  dangerouslySetInnerHTML={{__html: companyAbout}}></div>
             </ContainerItem>
           </Flex>
         </Container>
