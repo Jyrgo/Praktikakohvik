@@ -31,7 +31,7 @@ const Header = () => {
             </h1>
             <span>
 
-                It teaduskonna kõige oodatuim praktikaseminar, kuhu tuleb üle 30 parima kohaliku ja rahvusvahelise suurfirma.
+                IT-teaduskonna kõige oodatuim praktikaseminar, kuhu tuleb üle 30 parima kohaliku ja rahvusvahelise suurfirma.
             </span>
             <a href="http://docs.google.com/forms/d/1ib56dZls3jqcHJA4UqQjKSPvjaAiIanZtEViNfTM0zU" target="_blank" rel="noopener noreferrer">
               <HeaderButton>Registreeri</HeaderButton>
