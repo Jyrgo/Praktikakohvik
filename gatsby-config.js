@@ -58,7 +58,7 @@ module.exports = {
         short_name: `Praktikakohvik`,
         start_url: `/`,
         background_color: `#ffffff`,
-        theme_color: `#000084`,
+        theme_color: `#ffffff`,
         display: `minimal-ui`,
         icon: `src/images/svg/ituk.svg`,
       },

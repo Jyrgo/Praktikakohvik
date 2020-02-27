@@ -8,7 +8,8 @@ const Questions = () => (
     <StyledContainer>
       <BackgroundTitle>MÕISTLIK KÜSIDA</BackgroundTitle>
       <SectionTitle>Mida küsida?</SectionTitle>
-      <SubText>Enne üritusele tulemist on mõistlik ette valmistada mõned küsimused tööandjatele. Siin on mõned näited.</SubText>
+      <SubText>Enne üritusele tulemist on mõistlik ette valmistada mõned küsimused <br />
+        tööandjatele. Siin on mõned näited.</SubText>
 
       <List>
         <li>Mis oskusi on vaja, et mingile kohale kandideerida?</li>

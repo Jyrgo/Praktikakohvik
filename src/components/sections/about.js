@@ -2,7 +2,7 @@ import React from "react"
 import styled from "styled-components"
 
 import { Container, Section, BackgroundTitle, SectionTitle } from "../global"
-import {graphql, useStaticQuery} from "gatsby";
+import { graphql, useStaticQuery } from "gatsby";
 
 const About = () => {
   const data = useStaticQuery(graphql`
@@ -20,9 +20,9 @@ const About = () => {
       <SectionTitle>Üritusest</SectionTitle>
 
       <AboutContainer>
-        <div>
+        <ImageDiv>
           <AboutImage src={ data.image.publicURL } />
-        </div>
+        </ImageDiv>
         <div>
           <p>Kohvile tulevad üle 30ne kohaliku ja rahvusvahelise firma, kes on saatnud oma arendajad ja värbajad,
             et tudengitega maha istuda ja vastata nende küsimustele.</p>
@@ -38,17 +38,6 @@ const About = () => {
 }
 
 export default About
-
-const Info = styled.div`
-  ${props => props.theme.font_size.small}
-
-  margin: 20px auto;
-  text-align: center;
-  color: ${props => props.theme.color.tertiary};
-
-  @media (min-width: ${props => props.theme.screen.md}) {
-    padding: 0px 100px;
-`
 
 const AboutContainer = styled.section`
   ${props => props.theme.font_size.small}
@@ -78,7 +67,15 @@ const AboutContainer = styled.section`
 `
 
 const AboutImage = styled.img`
-  max-width: 100%;
+  max-width: 60%;
+  @media (max-width: ${props => props.theme.screen.xs}) {
+    display: none;
+  }
+`
+
+const ImageDiv = styled.div`
+  width: 47%;
+  text-align: center;
   @media (max-width: ${props => props.theme.screen.xs}) {
     display: none;
   }

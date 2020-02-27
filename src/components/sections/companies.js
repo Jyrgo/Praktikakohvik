@@ -61,7 +61,7 @@ const Companies = () => {
     }
 
     let companyName = "Krakul OÜ";
-    let companyAbout = companyData[companyName];
+    let companyAbout = companyData[companyName][0];
 
     const nameRef = React.createRef();
     const aboutRef = React.createRef();
@@ -78,7 +78,7 @@ const Companies = () => {
             <br />
             <ContainerItem id="info">
               <span ref={ nameRef }>{ companyName }</span>
-              <div ref={ aboutRef }>{ companyAbout }</div>
+              <div ref={ aboutRef }  dangerouslySetInnerHTML={{__html: companyAbout}}></div>
             </ContainerItem>
           </Flex>
         </Container>
