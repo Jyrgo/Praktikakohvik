@@ -6,7 +6,7 @@
       "image": "somepath"
     }
   },
-    {
+  {
     "company": {
       "name": "AgileWorks AS",
       "about": "Meist<br>Põhirõhk on kvaliteedil, mitte kvantiteedil. Teeme turvalist tarkvara ja  meie arendus on jätkusuutlik. Agiilsed põhimõtted on meie põhimõtted - need võimaldavad meil tulemusi saavutada keskmisest kiiremini.<br>Kliendid: Elisa, Ellington Printing, Star Cloud, Tallinna Vesi, Eesti Standardikeskus, Riigikontroll, Eesti Metsa- ja Puidutööstuse Liit, Artist Media jpt.<br>Töö: Java || C#, eesti keel && inglise keel, agiilsed metoodikad, TDD && DDD, HTML, JavaScript, SQL, NoSQL, Git versioonihaldus, .NET<br>„Pereelu": Ühisüritused (paintball, golf, bowling, kontori chill, discgolf, ronimine, laskmine jpm), koolitused/konverentsid, reedesed ühislõunad, massaažid, boonuspuhkused, spordikompensatsioonid.<br>Kontor: @kalamaja, puhketuba, lauatennis, lauajalgpall, lemmikloomad jpm.<br><br>if (interested)<br>{<br>findUs(@praktikakohvik);<br>}<br>else if (wantToFindOutMore)<br>{<br>goTo(\"https://agileworks.eu/\");<br>contact(\"info@agileworks.eu\");<br>}<br>",
