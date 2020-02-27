@@ -22,7 +22,6 @@
     "prop-types": "^15.7.2",
     "react": "^16.10.2",
     "react-anchor-link-smooth-scroll": "^1.0.12",
-    "react-burger-menu": "^2.6.13",
     "react-dom": "^16.10.2",
     "react-feather": "^2.0.3",
     "react-helmet": "^5.2.1",

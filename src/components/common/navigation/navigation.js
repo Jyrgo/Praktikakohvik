@@ -2,7 +2,6 @@ import React, { Component } from "react"
 import AnchorLink from "react-anchor-link-smooth-scroll"
 import Scrollspy from "react-scrollspy"
 import { Menu, X } from "react-feather"
-import { slide as BurgerMenu } from 'react-burger-menu'
 
 import { Container } from "../../global"
 import {
@@ -83,9 +82,6 @@ export default class Navigation extends Component {
               </AnchorLink>
             </Scrollspy>
           </Brand>
-          <BurgerMenu right>
-            {this.getNavList({ mobile: true })}
-          </BurgerMenu>
           <Mobile>
             <button
               onClick={this.toggleMobileMenu}
@@ -98,8 +94,16 @@ export default class Navigation extends Component {
               )}
             </button>
           </Mobile>
+
           <Mobile hide>{this.getNavList({})}</Mobile>
         </StyledContainer>
+        <Mobile>
+          {mobileMenuOpen && (
+            <MobileMenu>
+              <Container>{this.getNavList({ mobile: true })}</Container>
+            </MobileMenu>
+          )}
+        </Mobile>
       </Nav>
     )
   }
