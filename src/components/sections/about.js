@@ -55,7 +55,7 @@ const AboutContainer = styled.section`
     }
   }
 
-  @media (max-width: ${props => props.theme.screen.xs}) {
+  @media (max-width: ${props => props.theme.screen.sm}) {
     flex-direction: column;
   
     
@@ -68,15 +68,18 @@ const AboutContainer = styled.section`
 
 const AboutImage = styled.img`
   max-width: 60%;
-  @media (max-width: ${props => props.theme.screen.xs}) {
+  @media (max-width: ${props => props.theme.screen.sm}) {
     display: none;
+  }
+  @media (max-width: ${props => props.theme.screen.md}) {
+    max-width: 80%;
   }
 `
 
 const ImageDiv = styled.div`
   width: 47%;
   text-align: center;
-  @media (max-width: ${props => props.theme.screen.xs}) {
+  @media (max-width: ${props => props.theme.screen.sm}) {
     display: none;
   }
 `
