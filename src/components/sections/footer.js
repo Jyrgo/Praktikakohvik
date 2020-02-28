@@ -43,8 +43,8 @@ const Footer = () => {
           <br />
         </ImageWrapper>
 
-        <TalTechSpan>TalTech IT Kolledž</TalTechSpan> <br />
-        <TalTechSpan>TalTech IT-teaduskond</TalTechSpan>
+        <Link href="https://www.ttu.ee/asutused/itcollege/" target="_blank"><TalTechSpan>TalTech IT Kolledž</TalTechSpan></Link> <br />
+        <Link href="https://www.ttu.ee/teaduskond/infotehnoloogia-teaduskond/" target="_blank"><TalTechSpan>TalTech IT-teaduskond</TalTechSpan></Link>
         <SocialList>
           <li>
             <a href="https://www.facebook.com/ituk.ttu/" target="_blank" rel="noopener noreferrer">
@@ -72,7 +72,7 @@ const Footer = () => {
         </div>
         <div>
           <ContactImage src={data.image6.publicURL} width="30" alt="mail svg" />
-          <span>kontakt@ituk.ee</span>
+          <span><Link href="mailto:kontakt@ituk.ee">kontakt@ituk.ee</Link></span>
         </div>
         <div>
           <ContactImage src={data.image7.publicURL} width="30" alt="phone svg" />
@@ -132,6 +132,12 @@ const FooterColumn = styled.div`
   }
 `
 
+const Link = styled.a`
+  ${props => props.theme.font.primary};
+  color: ${props => props.theme.color.white.lessdark};
+  text-decoration: none;
+`
+
 const ImageWrapper = styled.div`
   margin-bottom: 27px;
 `
@@ -189,11 +195,12 @@ const ContactColumn = styled.div`
       width: 145px;
       font-size: 16px;
       ${props => props.theme.font.primary};
-      color: ${props => props.theme.color.white.lessdark};  
+      color: ${props => props.theme.color.white.lessdark};
     }
   }
+
   @media (max-width: ${props => props.theme.screen.xs}) {
-    width: 47%; 
+    width: auto; 
     div {
       span {
         font-size: 15px;
@@ -204,6 +211,7 @@ const ContactColumn = styled.div`
     span {
       font-size: 20px;
     }
+  }
 `
 
 const ContactImage = styled.img`
