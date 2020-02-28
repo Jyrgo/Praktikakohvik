@@ -76,7 +76,7 @@ const Footer = () => {
         </div>
         <div>
           <ContactImage src={data.image7.publicURL} width="30" alt="phone svg" />
-          <span>5383 3487</span>
+          <span>5331 1997</span>
         </div>
       </ContactColumn>
 
