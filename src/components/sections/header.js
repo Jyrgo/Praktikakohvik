@@ -30,7 +30,6 @@ const Header = () => {
               PRAKTIKAKOHT
             </h1>
             <span>
-
                 IT-teaduskonna kõige oodatuim praktikaseminar, kuhu tuleb üle 30 parima kohaliku ja rahvusvahelise suurfirma.
             </span>
             <a href="http://docs.google.com/forms/d/1ib56dZls3jqcHJA4UqQjKSPvjaAiIanZtEViNfTM0zU" target="_blank" rel="noopener noreferrer">
@@ -74,8 +73,11 @@ const HeaderTextGroup = styled.div`
   h1 {
     margin: 0 0 13px;
     color: ${props => props.theme.color.primary};
-    ${props => props.theme.font.extrabold};
     font-size: 45px;
+    ${props => props.theme.font.extrabold};
+    @media (max-width: ${props => props.theme.screen.sm}) {
+      ${props => props.theme.font_size.larger};
+    }
     line-height: 56px;
     letter-spacing: 2px;
   }

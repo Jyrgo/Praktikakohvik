@@ -99,13 +99,6 @@
   },
   {
     "company": {
-      "name": "SEB Pank",
-      "about": "Töö suures rahvusvahelises organisatsioonis annab Sulle võimaluse teha koostööd ja õppida oma ala tipptegijatelt. Kui Sul paneb silma särama võimalus kujundada tuleviku pangandust, ootame just Sind! <br>SEB on Eesti parim digipank, mis panustab uute innovaatiliste digilahenduste arendamisesse ning töötab selle nimel, et saaksite teostada oma kõige ambitsioonikamaid plaane. SEBs töötades saab arendada uusi ja jätkusuutlikke pangatooteid, anda uut hoogu juurde juba tegutsevatele ettevõtetele ning innustada neid looma uusi innovaatilisi tooteid ja teenuseid. Pank pakub rahvusvahelist koostööd ning suurepäraseid eneseteostusvõimalusi. Tööandjana oleme sageli otsimas särasilmseid noori, kellega koos Eesti pangandusmaastikku uuendada ning edasi viia. SEBl on noortele talentidele rohkelt arenguvõimalusi eneseteostuseks ning potentsiaali avamiseks.<br>Meie Youth LAB praktikaprogrammi on oodatud kandideerima algatusvõimelised, meeskonnatööd hindavad tudengid. Youth LAB’is saad tuge kogenud kolleegidelt ja suurepärast ettevalmistust tulevaseks karjääriks. Ühe osana praktikast saad läbida startup`iliku programmi toodete/teenuste arendamisest ideest lõpptulemuseni. Saad võimaluse kohtuda SEB valdkonnajuhtidega, saada uusi kontakte, teadmisi pangandusest ja tegeleda vastutusrikaste tööülesannetega. <br>",
-      "image": "somepath"
-    }
-  },
-  {
-    "company": {
       "name": "Finnair Business Services",
       "about": "Finnair Business Services is a versatile, ambitious team of over 200 experts in Tartu. We are covering wide areas of business, like operations support, finance and digital excellence. We work in close cooperation with our colleagues in Finland and create together top of the line travelling experiences for millions of customers around the world. Finnair is building multi-site location, one talented digital team working together in Vantaa and Tartu, and we are constantly recruiting talents. Finnair Business Services is on a mission to be a great service provider and a great place to work. We offer personal development, interesting career opportunities in a unique aviation industry, coherent approach to wellbeing and flexible ways of working. Join our international team of professionals and challenge the digital world with Finnair. While transitioning towards a digital company, we have top-notch development tools and methods and are continuously embracing fresh new ideas from digital experts. We offer a range of positions on several levels from easy-to-enter starting points to demanding professional and managerial positions. Learn more about us: <a target='_blank' href='www.finnairbusinessservices.com'>www.finnairbusinessservices.com</a>",
       "image": "somepath"
@@ -157,6 +150,62 @@
     "company": {
       "name": "Kühne + Nagel",
       "about": "Become a part of a strong IT ecosystem, where your work will have direct influence on the future of logistics and IT!<br><br>We are 400+ IT professionals focusing on developing IT-based integrated logistics solutions to one of the world’s leading logistics companies Kühne+Nagel with 85 000+ employees in 100+ countries. In addition to development our work includes support, maintenance, infrastructure services and. <br>Kühne+Nagel is on the way to become a fully technology-enabled and data-driven value chain provider. Here IT plays a crucial role. Our ambition in IT is to be a partner for the logistics business, an innovator in developing logistics solution and a supplier for IT services.<br>We are looking for bright minds - IT students who have graduated or are in the end of their studies, are passionate about IT, always deliver their best and are continuously willing to learn new things, speak fluent English and are excited about building up their career in a strong and stable global enterprise. <br>We have a wide range of IT positions starting with service support and ending with cyber security and ML. As we have 50+ teams and much more products and services you have great chances to grow inside Kühne+Nagel. You will work in a truly international environment and create solutions for end users across the world. And it’s beyond work - we have plenty of fun and sports together as well!<br>",
+      "image": "somepath"
+    }
+  },
+  {
+    "company": {
+      "name": "Eesti Energia",
+      "about": "Eesti Energia on rohkem kui 80-aastase kogemusega rahvusvaheline energiafirma ning Eesti suurim ja hinnatuim tööandja. Meie ambitsioon on pakkuda oma klientidele kasulikke ja mugavaid energialahendusi. Soovime toota energiat aina keskkonnasäästlikumalt – just nii anname oma panuse maailma puhtamaks muutmisesse.<br><br>IT meeskonna vedada on Eesti Energia digitaliseerimine. Teenindame oma kliente pea 100% digikanalites. Oleme kaugloetavad arvestid paigaldanud Eestis kõigi klientide tarbimiskohtadesse, kasutame elektrivõrgu juhtimiseks digitaalseid lahendusi ning oleme peagi klientideni toomas suurandmetel põhinevaid tarbimise juhtimise lahendusi.<br><br>IT faktid:<ul><li>260 IT kolleegi</li><li>10 IT valdkonda</li><li>315 IT rakendust</li><li>200 OT rakendust</li><li>Ligi 50 arendusprojekti</li><li>Iga 3 praktikant jääb meile tööle</li></ul>Selleks et ambitsioonikaid eesmärke ellu viia vajame häid IT spetsialiste, kelle silmad panevad särama väljakutsed, pakatavad ideedest ning soovivad panustada Eesti ühe olulisema ettevõtte arengusse.<br><br>Otsime praktikante järgmistesse valdkondadesse:<br><ul><li>tarkvara arendus (Java)</li><li>küberturve</li><li>rakenduste administreerimine;</li><li>IT tugi</li></ul><br>Võta meiega ühendust!<br><a href='mailto:praktika@energia.ee'>praktika@energia.ee</a><br><a target='_blank' href='https://www.energia.ee/praktika'>www.energia.ee/praktika</a>",
+      "image": "somepath"
+    }
+  },
+  {
+    "company": {
+      "name": "Cleveron",
+      "about": "Tehnoloogiaettevõte Cleveron loob maailmas ainulaadset riist- ja tarkvara viimase miili click and collect-lahenduste jaoks. Cleveroni eesmärgiks on olla oma valdkonna innovaator; teha asju, mida keegi teine pole veel teinud ja aidata läbi selle säästa inimestele aega. Pole ju mõtet pakisabas oodata, kui nutikas tarkvara suudaks selle vajaduse ära kaotada. Cleveroni töötajad loovad lahendusi, millest keegi ei oska veel unistadagi, kuid millest juba praegu hädasti puudust tuntakse.<br><br>Kui soovid täpsemalt teada, kuidas Cleveronis tulevikku luuakse, siis tule ja kohtu Cleveroni esindajatega.",
+      "image": "somepath"
+    }
+  },
+  {
+    "company": {
+      "name": "Adcash",
+      "about": "Adcash is a global online advertising platform. Our team has been rocking the ad tech industry since 2007 and we have offices in Tallinn, Barcelona and Sofia.<br><br>With advanced in-house optimization technology and over 12 years’ ad tech experience, we provide businesses with digital advertising tools that deliver real results. Our platform enables advertisers to reach global audiences and allows publishers to monetize web traffic with minimal effort. We have 10K+ active campaigns worldwide that are shown in 196 countries that reach 200M+ unique internet users every day. There’s a high probability you’ve seen our ads when browsing the web.<br><br>People are our greatest asset and we’re constantly looking for talented people to join our team. The life of an Adcasher includes use of latest technologies and equipment, working in a pet-friendly city center offices, health and sports compensation, yearly training budget and memorable team events. All of our employees also have the chance to either take an office shuttle and work from one of our other offices for a while, work remotely or make use of our seasonal office (this year our winter office is in Bali).<br><br>Find out more here: <a target='_blank' href='https://adcash.com/careers'>adcash.com/careers</a>",
+      "image": "somepath"
+    }
+  },
+  {
+    "company": {
+      "name": "Veebipoed",
+      "about": "Veebipoed on kiirelt kasvav, ambitsioonikas väikeettevõte, kellel on kliente erinevatest valdkondadest. Lisaks e-poodide arendusele tegeleme ka riigile veebilehtede loomisega. Meie tuntuimad kliendid nii era- kui riigisektoris on JOIK, Omniva, Matkasport, Bio4You, Itek, Realiseerimiskeskus, Kirg, Keskkonnaagentuur, Mürgistusteabekeskus, Keskkonnaministeerium.<br><br>Meil on aktiivne ja nooruslik meeskond, kes on motiveeritud vastu võtma uusi katsumusi, millest on võimalik õppida ja oma kogemuste pagasit kasvatada. Korraldame palju tiimiüritusi ja spontaanseid pinksiturnasid.<br><br>Otsime oma meeskonda inimesi, kes on valmis väljakutseteks ja tahavad panustada ettevõtte arengusse, mitte olla nähtamatu lüli IT tööprotsessides. Ära muretse! Eelnev töökogemus ei ole vajalik, kuna 80% meie meeskonnast on tulnud otse ülikoolist ja paari kuuga omandanud e-kaubanduses spetsialisti teadmised.<br><br>Kontaktinfo: Helen Maisa, <a href='mailto:helen@veebipoed.ee'>helen@veebipoed.ee</a>",
+      "image": "somepath"
+    }
+  },
+  {
+    "company": {
+      "name": "Spin TEK",
+      "about": "Spin TEK AS on üks Eesti vanimaid IT-firmasid. Oleme oma 29 tegevusaasta jooksul arendanud suurel hulgal erinevaid infosüsteeme nii avalikule sektorile kui ka eraettevõtetele. Meie põhiväärtusteks on kvaliteet ja stabiilsus – soovime luua vaid sellist tarkvara, mis töötab pikaajaliselt. Tegutseme paljude põnevate projektidega nii Eestis kui ka rahvusvahelistel turgudel.<br><br>Oma meeskonda otsime praktikanti, kellel on olemas tehniline loovus ja erialased algteadmised. Meie stackiks on Symfony (PHP) ja PostgreSQL, front-endis kasutame erinevaid Javascripti raamistikke. Praktikandilt ei eelda me konkreetsete programmeerimiskeelte või frameworkide kasutamise kogemust - need tekivad töö käigus - kuid ootame tõsist huvi programmeerimise vastu ja soovi oma teadmisi täiendada.<br><br>Omalt poolt garanteerime vaheldusrikka töö ja abivalmis meeskonna. Meil on alati käsil korraga mitu erinevat põnevat projekti, seega ei saa töö meie meeskonnas kunagi igav olema.<br><br>Praktika on tasustatud. Kõiki praktikante näeme potentsiaalsete uute kolleegidena, kellega sobivusel sõlmime pärast praktikat ka töölepingu.<br><br>Anna meile endast märku: <a href='mailto:info@spin.ee'>info@spin.ee</a><br><a target='_blank' href='https://www.spin.ee'>www.spin.ee</a>",
+      "image": "somepath"
+    }
+  },
+  {
+    "company": {
+      "name": "Net Group",
+      "about": "Kes oleme?<br><br>Net Group on rahvusvaheliselt tegutsev äri- ja tarkvaraarendusettevõte. Meie eesmärk on aidata alustada ja arendada oma partnerite äri, kasutades selleks meie laialdast kogemust ning erinevaid tarkvara lahendusi. Lisaks tarkvara arendamisele aitame kliendil luua ning võtta kasutusse uusi äriprotsesse, mis aitavad parandada tema äri kasumlikkust, sisemist efektiivsust ja tõsta lõppklientide rahulolu.<br><br>Töötame koos kliendiga välja just tema ärieesmärkidest lähtuvad lahendused, aidates viia kliendi äri uuele tasemele. Me oleme personaalse lähenemisega ja tõestame kliendile kiire proof-of-concept’iga meie lahenduse kasulikkust.<br><br>Milliseid inimesi ootame?<br><br>Net Groupi töötajad on erilised ja väärtustame seda kõrgelt. Olulist rolli mängivad avatus meeskonnatööks, proaktiivsus ja aktiivne kaasa mõtlemine. Meile meeldib areneda ja rakendada kaasaegseid tehnoloogiaid ning 10 erinevat tiimi pakuvad rohkelt võimalusi eneseteostuseks karjääriredelil. Net Group-i töötajaid iseloomustab kõrge saavutusvajadus ning soov oma pingutusega aidata kaasa ettevõtte ja läbi selle iseenda arengule. Praktikale ootame kõiki kes on huvitatud eeskätt Java, .NET ja front-end raamistikest.<br><br>Vaata ka: <a target='_blank' href='https://www.netgroup.com/about-us/suveulikool/'>www.netgroup.com/about-us/suveulikool/</a> | <a target='_blank' href='https://www.facebook.com/netgroup'>www.facebook.com/netgroup</a><br>Email: <a href='mailto:suveulikool@netgroup.com'>suveulikool@netgroup.com</a>",
+      "image": "somepath"
+    }
+  },
+  {
+    "company": {
+      "name": "Schneider Electric",
+      "about": "We believe access to energy and digital is a basic human right. Our generation is facing a tectonic shift in energy transition and industrial revolution catalysed by accelerated digitization in a more electric world. For the first time in history, we can all participate in a step change in efficiency and the rare opportunity to reconcile the paradox between progress for all, and a sustainable future for our planet.<br><br>We empower all to make the most of their energy and resources, ensuring Life Is On everywhere, for everyone, at every moment.<br><br>We provide energy and automation digital solutions for efficiency and sustainability. We combine world-leading energy technologies, real-time automation, software and services into integrated solutions for homes, buildings, data centers, infrastructure and industries. We make process and energy safe and reliable, efficient and sustainable, open and connected.<br><br>We are committed to unleash the infinite possibilities of an open, global, innovative community that is passionate about our Meaningful Purpose, Inclusive and Empowered values.<br><br>We are a people company. We privilege partners and partnership in everything we do. We are the most local of global companies. We believe that great people make Schneider a great company.<br><br>In Estonia we have small office of 15 people which mostly includes of sales & customer support team members.<br><br>Learn about us watching this video: <a target='_blank' href='https://youtu.be/VbldHPFltQQ'>https://youtu.be/VbldHPFltQQ</a>",
+      "image": "somepath"
+    }
+  },
+  {
+    "company": {
+      "name": "ABB",
+      "about": "ABB – pioneering technology leader<br><br>ABB is a pioneering technology leader in electrification products, robotics and motion, industrial automation and power grids, serving customers in utilities, industry and transport & infrastructure globally. Continuing a history of innovation spanning more than 130 years, ABB today is writing the future of industrial digitalization with two clear value propositions: bringing electricity from any power plant to any plug and automating industries from natural resources to finished products. As title partner of Formula E, the fully electric international FIA motorsport class, ABB is pushing the boundaries of emobility to contribute to a sustainable future. ABB operates in more than 100 countries with about 135,000 employees.<br><br>Come and investigate more if you are interested in coding and industrial software development and testing in rather than web design. You are learning different programming languages like C#, C++ and you can speak English.<br><br>More information: <a target='_blank' href='http://www.abb.ee/careers'>www.abb.ee/careers</a>",
       "image": "somepath"
     }
   }
